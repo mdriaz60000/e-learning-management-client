@@ -1,4 +1,5 @@
-import { Button } from "./components/ui/button"
+import Hero from "./pages/Hero/HeroBanner"
+
 
 
 function App() {
@@ -6,12 +7,10 @@ function App() {
 
   return (
     <>
-
+    <Hero/>
       <h1>Vite + React</h1>
 
-      <p className="read-the-docs">
-        Click on the Vite and React <Button> riaz</Button>logos to learn more
-      </p>
+
     </>
   )
 }
